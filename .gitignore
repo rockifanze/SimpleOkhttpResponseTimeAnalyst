@@ -31,7 +31,4 @@ out/
 .gradle/
 build.gradle
 build/
-gradle.properties
-gradle/
-gradlew
-gradlew.bat
+
