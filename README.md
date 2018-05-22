@@ -1,6 +1,10 @@
 # SimpleOkhttpResponseTimeAnalyst
 
-Download
+Simple Okhttp Response Time Analyst (SORTA) is a tool to collect all OkHttpLoggingIntercepter info that response time is over than we expect.
+You can use it when you are testing your app with API. 
+
+
+###Download
 <pre>git clone https://github.com/rockifanze/SimpleOkhttpResponseTimeAnalyst.git</pre>
 
 ### Build
@@ -8,9 +12,10 @@ Download
 ./gradlew build
 </pre>
 ### Usage
+Move all logcat info to the current path, and enter the command below.
 <pre>
 cd build/libs
-java -jar sorta.jar ./
+java -jar sorta.jar .
 </pre>
 Then will create "warnings.txt" at the "currentPath/warningDocs/"
 
