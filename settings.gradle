@@ -1,0 +1,5 @@
+rootProject.name = 'sorta'
+//findProject(':').name = 'SORTA'
+rootProject.buildFileName = 'project.gradle'
+
+//include 'SORTA'
