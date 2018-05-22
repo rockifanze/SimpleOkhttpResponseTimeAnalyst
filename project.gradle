@@ -12,7 +12,6 @@ buildscript {
 
 }
 
-
 apply plugin: 'kotlin'
 
 sourceSets {
@@ -26,9 +25,10 @@ dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 }
+
 jar {
     manifest {
-        attributes 'Main-Class': 'ApiTrackerKT'
+        attributes 'Main-Class': 'ApiTrackerKt'
     }
 
     from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
