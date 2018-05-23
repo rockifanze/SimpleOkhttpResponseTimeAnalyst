@@ -1,4 +1,4 @@
-# SimpleOkhttpResponseTimeAnalyst
+# Simple Okhttp Response Time Analyst
 
 Simple Okhttp Response Time Analyst (SORTA) is a tool to collect all OkHttpLoggingIntercepter info that response time is over than we expect.
 You can use it when you are testing your app with API. 
