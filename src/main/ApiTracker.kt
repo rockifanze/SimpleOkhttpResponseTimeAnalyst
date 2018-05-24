@@ -31,7 +31,7 @@ fun main(args: Array<String>) {
         fileOutputStream = FileOutputStream(outputFile, true)
         val outputStreamWriter = OutputStreamWriter(fileOutputStream)
         val headInfo = "File: $fileName analyst:"
-        outputStreamWriter.append(headInfo)
+        outputStreamWriter.append("$headInfo\n")
         if (shouldLog) {
             System.out.println(headInfo)
         }
